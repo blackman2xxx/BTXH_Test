@@ -219,7 +219,7 @@ public class GuiHoSo extends Init{
 
         driver.findElement(By.xpath("//a[contains(text(),'Chuyển tiếp')]")).click();
         driver.findElement(By.xpath("//button[normalize-space()='OK']")).click();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
 
         //đăng xuất
         driver.findElement(By.xpath("//i[@class='topbar-icon pi pi-fw pi-user']")).click();
@@ -257,7 +257,7 @@ public class GuiHoSo extends Init{
 
         driver.findElement(By.xpath("//a[contains(text(),'Chuyển tiếp')]")).click();
         driver.findElement(By.xpath("//button[normalize-space()='OK']")).click();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
 
         //đăng xuất
         driver.findElement(By.xpath("//i[@class='topbar-icon pi pi-fw pi-user']")).click();
@@ -295,7 +295,7 @@ public class GuiHoSo extends Init{
 
         driver.findElement(By.xpath("//a[contains(text(),'Chuyển tiếp')]")).click();
         driver.findElement(By.xpath("//button[normalize-space()='OK']")).click();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
 
         //đăng xuất
         driver.findElement(By.xpath("//i[@class='topbar-icon pi pi-fw pi-user']")).click();
