@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cfe8a75-0484-4b0e-9a61-18f56fe7fd72" name="Changes" comment="" />
+    <list default="true" id="5cfe8a75-0484-4b0e-9a61-18f56fe7fd72" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Initialization/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Initialization/Init.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCase/GuiHoSo/GuiHoSo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCase/GuiHoSo/GuiHoSo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TestNGTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TestNGTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FDKSR8SENcTlqcqXhrG2VDUoJs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,9 +40,120 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG.GuiHoSo">
+    <configuration name="GuiHoSo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BTXH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCase.GuiHoSo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCase.GuiHoSo" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.GuiHoSo.GuiHoSo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuiHoSo.CBxatoCBhuyen" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BTXH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCase.GuiHoSo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCase.GuiHoSo" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.GuiHoSo.GuiHoSo" />
+      <option name="METHOD_NAME" value="CBxatoCBhuyen" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuiHoSo.CBxatoMChuyen" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BTXH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCase.GuiHoSo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCase.GuiHoSo" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.GuiHoSo.GuiHoSo" />
+      <option name="METHOD_NAME" value="CBxatoMChuyen" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuiHoSo.MChuyentoCBhuyen" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BTXH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCase.GuiHoSo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCase.GuiHoSo" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.GuiHoSo.GuiHoSo" />
+      <option name="METHOD_NAME" value="MChuyentoCBhuyen" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuiHoSo.MCxatoCBhuyen" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BTXH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCase.GuiHoSo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCase.GuiHoSo" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.GuiHoSo.GuiHoSo" />
+      <option name="METHOD_NAME" value="MCxatoCBhuyen" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.GuiHoSo.CBxatoCBhuyen" />
+      <item itemvalue="TestNG.GuiHoSo.CBxatoMChuyen" />
+      <item itemvalue="TestNG.GuiHoSo.MChuyentoCBhuyen" />
+      <item itemvalue="TestNG.GuiHoSo.MCxatoCBhuyen" />
+      <item itemvalue="TestNG.GuiHoSo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.GuiHoSo" />
+        <item itemvalue="TestNG.GuiHoSo.MChuyentoCBhuyen" />
+        <item itemvalue="TestNG.GuiHoSo.CBxatoCBhuyen" />
+        <item itemvalue="TestNG.GuiHoSo.CBxatoMChuyen" />
+        <item itemvalue="TestNG.GuiHoSo.MCxatoCBhuyen" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -29,5 +164,28 @@
       <updated>1664021215993</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
