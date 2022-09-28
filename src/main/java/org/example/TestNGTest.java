@@ -1,38 +1,16 @@
 package org.example;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import Initialization.Init;
 import org.testng.annotations.Test;
-
-import java.util.concurrent.TimeUnit;
-
-public class TestNGTest {
-
-    WebDriver driver;
+public class TestNGTest extends Init {
 
     @Test
-    public void Test01() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
-
+    public void Test01() throws InterruptedException{
         driver.get("https://www.facebook.com/");
-
-        driver.quit();
+        Thread.sleep(2000);
     }
-    @Test
-    public void Test02() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
-
-        driver.get("https://www.google.com/");
-
-        driver.quit();
-    }
+//    @Test
+//    public void Test02() throws InterruptedException{
+//        driver.get("https://www.google.com/");
+//        Thread.sleep(2000);
+//    }
 }

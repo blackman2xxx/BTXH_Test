@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="D:/Test_BTXH/BTXH/src/main/java/TestCase/GuiHoSo/GuiHoSo.java">
+    <test verbose="2" preserve-order="true" name="D:/Test_BTXH/BTXH/src/main/java/TestCase/QuyTrinh">
         <classes>
-            <class name="TestCase.GuiHoSo.GuiHoSo">
+            <class name="TestCase.QuyTrinh.GuiHoSo">
+            </class>
+            <class name="TestCase.QuyTrinh.MCxatoCBxa">
+            </class>
+            <class name="TestCase.QuyTrinh.CBxatoLDxa">
+            </class>
+            <class name="TestCase.QuyTrinh.LDxatoVTxa">
+            </class>
+            <class name="TestCase.QuyTrinh.VTxatoCBxa">
+            </class>
+            <class name="TestCase.QuyTrinh.CBxatoMChuyen">
             </class>
         </classes>
     </test>

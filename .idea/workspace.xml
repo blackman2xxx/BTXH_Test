@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cfe8a75-0484-4b0e-9a61-18f56fe7fd72" name="Changes" comment="add code">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh/CBxatoLDxa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh/CBxatoMChuyen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh/LDxatoVTxa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh/MCxatoCBxa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh/VTxatoCBxa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testabc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestCase/GuiHoSo/GuiHoSo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCase/GuiHoSo/GuiHoSo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Initialization/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Initialization/Init.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCase/GuiHoSo/GuiHoSo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh/GuiHoSo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TestNGTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TestNGTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,23 +47,34 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.GuiHoSo">
-    <configuration name="GuiHoSo" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.D:/Test_BTXH/BTXH/testng.xml">
+    <configuration name="D:/Test_BTXH/BTXH/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BTXH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MCxatoCBxa" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BTXH" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestCase.GuiHoSo.*" />
+          <option name="PATTERN" value="TestCase.QuyTrinh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestCase.GuiHoSo" />
-      <option name="MAIN_CLASS_NAME" value="TestCase.GuiHoSo.GuiHoSo" />
+      <option name="PACKAGE_NAME" value="TestCase.QuyTrinh" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.QuyTrinh.MCxatoCBxa" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -60,17 +82,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuiHoSo.CBxatoCBhuyen" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="test1 (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BTXH" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestCase.GuiHoSo.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestCase.GuiHoSo" />
-      <option name="MAIN_CLASS_NAME" value="TestCase.GuiHoSo.GuiHoSo" />
-      <option name="METHOD_NAME" value="CBxatoCBhuyen" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.test1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1.Img" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BTXH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.test1" />
+      <option name="METHOD_NAME" value="Img" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -78,54 +117,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuiHoSo.CBxatoMChuyen" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="testabc" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BTXH" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestCase.GuiHoSo.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestCase.GuiHoSo" />
-      <option name="MAIN_CLASS_NAME" value="TestCase.GuiHoSo.GuiHoSo" />
-      <option name="METHOD_NAME" value="CBxatoMChuyen" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GuiHoSo.MChuyentoCBhuyen" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BTXH" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCase.GuiHoSo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCase.GuiHoSo" />
-      <option name="MAIN_CLASS_NAME" value="TestCase.GuiHoSo.GuiHoSo" />
-      <option name="METHOD_NAME" value="MChuyentoCBhuyen" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GuiHoSo.MCxatoCBhuyen" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BTXH" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCase.GuiHoSo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCase.GuiHoSo" />
-      <option name="MAIN_CLASS_NAME" value="TestCase.GuiHoSo.GuiHoSo" />
-      <option name="METHOD_NAME" value="MCxatoCBhuyen" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.testabc" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -133,19 +135,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.GuiHoSo.CBxatoCBhuyen" />
-      <item itemvalue="TestNG.GuiHoSo.CBxatoMChuyen" />
-      <item itemvalue="TestNG.GuiHoSo.MChuyentoCBhuyen" />
-      <item itemvalue="TestNG.GuiHoSo.MCxatoCBhuyen" />
-      <item itemvalue="TestNG.GuiHoSo" />
+      <item itemvalue="TestNG.D:/Test_BTXH/BTXH/testng.xml" />
+      <item itemvalue="TestNG.MCxatoCBxa" />
+      <item itemvalue="TestNG.test1 (3)" />
+      <item itemvalue="TestNG.test1.Img" />
+      <item itemvalue="TestNG.testabc" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GuiHoSo" />
-        <item itemvalue="TestNG.GuiHoSo.MChuyentoCBhuyen" />
-        <item itemvalue="TestNG.GuiHoSo.CBxatoCBhuyen" />
-        <item itemvalue="TestNG.GuiHoSo.CBxatoMChuyen" />
-        <item itemvalue="TestNG.GuiHoSo.MCxatoCBhuyen" />
+        <item itemvalue="TestNG.D:/Test_BTXH/BTXH/testng.xml" />
+        <item itemvalue="TestNG.MCxatoCBxa" />
+        <item itemvalue="TestNG.testabc" />
+        <item itemvalue="TestNG.test1.Img" />
+        <item itemvalue="TestNG.test1 (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -194,5 +196,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add code" />
     <option name="LAST_COMMIT_MESSAGE" value="add code" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
