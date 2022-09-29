@@ -4,19 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cfe8a75-0484-4b0e-9a61-18f56fe7fd72" name="Changes" comment="add code">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh/CBxatoLDxa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh/CBxatoMChuyen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh/LDxatoVTxa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh/MCxatoCBxa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh/VTxatoCBxa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testabc.java" afterDir="false" />
+    <list default="true" id="5cfe8a75-0484-4b0e-9a61-18f56fe7fd72" name="Changes" comment="break into class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh1/NguoiCaoTuoi/B10_UBhuyentoLDhuyen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh1/NguoiCaoTuoi/B11_LDhuyentoUBhuyen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh1/NguoiCaoTuoi/B12_UBhuyentoCBhuyen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh1/NguoiCaoTuoi/B13_CBhuyentoMChuyen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh1/NguoiCaoTuoi/B14_MChuyentoCBxa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh1/NguoiCaoTuoi/B15_CBxatoDan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh1/NguoiCaoTuoi/B1_DantoMCxa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh1/NguoiCaoTuoi/B2_MCxatoCBxa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh1/NguoiCaoTuoi/B3_CBxatoLDxa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh1/NguoiCaoTuoi/B4_LDxatoVTxa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh1/NguoiCaoTuoi/B5_VTxatoCBxa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh1/NguoiCaoTuoi/B6_CBxatoMChuyen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh1/NguoiCaoTuoi/B7_MChuyentoCBhuyen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh1/NguoiCaoTuoi/B8_CBhuyentoLDphong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh1/NguoiCaoTuoi/B9_LDphongtoUBhuyen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Initialization/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Initialization/Init.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestCase/GuiHoSo/GuiHoSo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh/GuiHoSo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TestNGTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TestNGTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh/CBxatoLDxa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh8/CBxatoLDxa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh/CBxatoMChuyen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh8/CBxatoMChuyen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh/GuiHoSo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh8/GuiHoSo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh/LDxatoVTxa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh8/LDxatoVTxa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh/MCxatoCBxa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh8/MCxatoCBxa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh/VTxatoCBxa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCase/QuyTrinh8/VTxatoCBxa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/BTXH.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/BTXH.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-org.example.TestNGTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/BTXH.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-reports1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-reports2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +74,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f3686811-c598-4b04-a9c6-cff5c206475b" />
+        <option name="url" value="https://github.com/blackman2xxx/BTXH.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -43,18 +91,96 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Test_BTXH/BTXH/src/main/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.D:/Test_BTXH/BTXH/testng.xml">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Test_BTXH\BTXH\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="B13_CBhuyentoMChuyen.B13_CBhuyentoMChuyen" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BTXH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCase.QuyTrinh1.NguoiCaoTuoi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCase.QuyTrinh1.NguoiCaoTuoi" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.QuyTrinh1.NguoiCaoTuoi.B13_CBhuyentoMChuyen" />
+      <option name="METHOD_NAME" value="B13_CBhuyentoMChuyen" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B14_MChuyentoCBxa.B14_MChuyentoMCxa" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BTXH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCase.QuyTrinh1.NguoiCaoTuoi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCase.QuyTrinh1.NguoiCaoTuoi" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.QuyTrinh1.NguoiCaoTuoi.B14_MChuyentoCBxa" />
+      <option name="METHOD_NAME" value="B14_MChuyentoMCxa" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B15_CBxatoDan.B14_MChuyentoMCxa" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BTXH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCase.QuyTrinh1.NguoiCaoTuoi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCase.QuyTrinh1.NguoiCaoTuoi" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.QuyTrinh1.NguoiCaoTuoi.B15_CBxatoDan" />
+      <option name="METHOD_NAME" value="B14_MChuyentoMCxa" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B15_CBxatoDan.B15_CBxatoMCxa" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BTXH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCase.QuyTrinh1.NguoiCaoTuoi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCase.QuyTrinh1.NguoiCaoTuoi" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.QuyTrinh1.NguoiCaoTuoi.B15_CBxatoDan" />
+      <option name="METHOD_NAME" value="B15_CBxatoMCxa" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="D:/Test_BTXH/BTXH/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BTXH" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -65,89 +191,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MCxatoCBxa" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BTXH" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCase.QuyTrinh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCase.QuyTrinh" />
-      <option name="MAIN_CLASS_NAME" value="TestCase.QuyTrinh.MCxatoCBxa" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test1 (3)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BTXH" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.test1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test1.Img" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BTXH" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.test1" />
-      <option name="METHOD_NAME" value="Img" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testabc" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BTXH" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.testabc" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="TestNG.B13_CBhuyentoMChuyen.B13_CBhuyentoMChuyen" />
+      <item itemvalue="TestNG.B14_MChuyentoCBxa.B14_MChuyentoMCxa" />
+      <item itemvalue="TestNG.B15_CBxatoDan.B14_MChuyentoMCxa" />
+      <item itemvalue="TestNG.B15_CBxatoDan.B15_CBxatoMCxa" />
       <item itemvalue="TestNG.D:/Test_BTXH/BTXH/testng.xml" />
-      <item itemvalue="TestNG.MCxatoCBxa" />
-      <item itemvalue="TestNG.test1 (3)" />
-      <item itemvalue="TestNG.test1.Img" />
-      <item itemvalue="TestNG.testabc" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.B15_CBxatoDan.B15_CBxatoMCxa" />
+        <item itemvalue="TestNG.B15_CBxatoDan.B14_MChuyentoMCxa" />
+        <item itemvalue="TestNG.B14_MChuyentoCBxa.B14_MChuyentoMCxa" />
+        <item itemvalue="TestNG.B13_CBhuyentoMChuyen.B13_CBhuyentoMChuyen" />
         <item itemvalue="TestNG.D:/Test_BTXH/BTXH/testng.xml" />
-        <item itemvalue="TestNG.MCxatoCBxa" />
-        <item itemvalue="TestNG.testabc" />
-        <item itemvalue="TestNG.test1.Img" />
-        <item itemvalue="TestNG.test1 (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664293060710</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="break into class">
+      <created>1664354891601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664354891601</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +240,11 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -195,7 +264,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add code" />
-    <option name="LAST_COMMIT_MESSAGE" value="add code" />
+    <MESSAGE value="break into class" />
+    <option name="LAST_COMMIT_MESSAGE" value="break into class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
