@@ -3,17 +3,18 @@ package TestCase.QuyTrinh8;
 import Initialization.Init;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class LDxatoVTxa extends Init {
+public class B3_CBxatoLDxa extends Init {
     @Test
-    public void LDxatoVTxa () throws InterruptedException {
+    public void CBxatoLDxa () throws InterruptedException {
         Actions action = new Actions(driver);
         JavascriptExecutor js = (JavascriptExecutor)driver;
-        driver.navigate().to("https://btxh.dttt.vn/");
+        driver.navigate().to("https://dvcbtxh.molisa.gov.vn/");
 
-        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("01267_ld");
+        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("01267_cb");
         driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");
         Thread.sleep(1000);
         driver.findElement(By.xpath("//button[@id='btnSave']")).click();
@@ -35,10 +36,15 @@ public class LDxatoVTxa extends Init {
 
         js.executeScript("window.scrollBy(0,350)", "");
         Thread.sleep(1000);
+        driver.findElement(By.xpath("//input[@id='TienHuong']")).sendKeys("500000");
+        driver.findElement(By.xpath("//span[@id='select2-StatusId-container']")).click();
+        driver.findElement(By.xpath("//input[@aria-label='Search']")).sendKeys("lãnh đạo");
+        action.sendKeys(Keys.ENTER).build().perform();
 
         driver.findElement(By.xpath("//a[contains(text(),'Chuyển tiếp')]")).click();
         driver.findElement(By.xpath("//button[normalize-space()='OK']")).click();
         Thread.sleep(1000);
+
 
         //đăng xuất
         driver.findElement(By.xpath("//i[@class='topbar-icon pi pi-fw pi-user']")).click();

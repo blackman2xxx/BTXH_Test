@@ -6,14 +6,14 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class VTxatoCBxa extends Init {
+public class B4_LDxatoVTxa extends Init {
     @Test
-    public void VTxatoCBxa () throws InterruptedException {
+    public void LDxatoVTxa () throws InterruptedException {
         Actions action = new Actions(driver);
         JavascriptExecutor js = (JavascriptExecutor)driver;
-        driver.navigate().to("https://btxh.dttt.vn/");
+        driver.navigate().to("https://dvcbtxh.molisa.gov.vn/");
 
-        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("01267_vt");
+        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("01267_ld");
         driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");
         Thread.sleep(1000);
         driver.findElement(By.xpath("//button[@id='btnSave']")).click();

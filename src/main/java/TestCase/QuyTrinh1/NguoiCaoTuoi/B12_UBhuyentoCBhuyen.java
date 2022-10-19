@@ -9,7 +9,7 @@ public class B12_UBhuyentoCBhuyen extends Init {
     @Test
     public void Buoc12_UBhuyentoCBhuyen () throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor)driver;
-        driver.get("https://btxh.dttt.vn/");
+        driver.get("https://dvcbtxh.molisa.gov.vn/");
 
         driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("352_ubhuyen");
         driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");

@@ -11,7 +11,7 @@ public class B5_VTxatoCBxa extends Init {
     public void VTxatoCBxa () throws InterruptedException {
         Actions action = new Actions(driver);
         JavascriptExecutor js = (JavascriptExecutor)driver;
-        driver.navigate().to("https://btxh.dttt.vn/");
+        driver.navigate().to("https://dvcbtxh.molisa.gov.vn/");
 
         driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("13516_vt");
         driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");
@@ -33,7 +33,7 @@ public class B5_VTxatoCBxa extends Init {
         driver.findElement(By.xpath("//body[1]/div[1]/div[3]/div[2]/div[2]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[10]/div[1]/div[1]/button[1]")).click();
         driver.findElement(By.xpath("(//a[contains(text(),\"Xử lý hồ sơ\")])[1]")).click();
 
-        js.executeScript("window.scrollBy(0,350)", "");
+        js.executeScript("window.scrollBy(0,450)", "");
         Thread.sleep(1000);
 
         driver.findElement(By.xpath("//a[contains(text(),'Chuyển tiếp')]")).click();

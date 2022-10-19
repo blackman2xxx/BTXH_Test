@@ -11,7 +11,7 @@ public class B6_CBxatoMChuyen extends Init {
     public void CBxatoMChuyen () throws InterruptedException {
         Actions action = new Actions(driver);
         JavascriptExecutor js = (JavascriptExecutor)driver;
-        driver.navigate().to("https://btxh.dttt.vn/");
+        driver.navigate().to("https://dvcbtxh.molisa.gov.vn/");
 
         driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("13516_cb");
         driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");
@@ -20,7 +20,7 @@ public class B6_CBxatoMChuyen extends Init {
         Thread.sleep(1000);
 
         //tiếp nhận
-        driver.findElement(By.xpath("//span//a[@class='ripplelink']")).click();
+        driver.findElement(By.xpath("//span//a[@class='ripplelink OverFlowUnset']")).click();
         driver.findElement(By.xpath("//button[@class='nut_dropdown bg-white']")).click();
         driver.findElement(By.xpath("//a[contains(text(),'Tiếp nhận hồ sơ')]")).click();
         driver.findElement(By.xpath("//button[normalize-space()='OK']")).click();
@@ -33,7 +33,7 @@ public class B6_CBxatoMChuyen extends Init {
         driver.findElement(By.xpath("//tr[@class='odd']//button[@class='nut_dropdown']")).click();
         driver.findElement(By.xpath("//tr[@class='odd']//a[contains(text(),'Xử lý hồ sơ')]")).click();
 
-        js.executeScript("window.scrollBy(0,350)", "");
+        js.executeScript("window.scrollBy(0,450)", "");
         Thread.sleep(1000);
 
         driver.findElement(By.xpath("//a[contains(text(),'Chuyển tiếp')]")).click();

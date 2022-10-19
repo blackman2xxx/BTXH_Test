@@ -18,11 +18,11 @@ public class Init {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         // Đặt thời gian chời ngầm định cho tất cả các element (đơn vị Giây)
-        // Ví dụ thiết lập 10 giây cho tất cả
+        // Ví dụ thiết lập 20 giây cho tất cả
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
-        //Thiết lập thời gian chờ Load page xong mới thao tác (tối đa 30s)
-        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+        //Thiết lập thời gian chờ Load page xong mới thao tác (tối đa 20s)
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();
     }
     @AfterMethod

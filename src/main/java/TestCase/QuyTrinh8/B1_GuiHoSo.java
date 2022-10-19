@@ -6,12 +6,12 @@ import org.testng.annotations.Test;
 
 import Initialization.Init;
 
-public class GuiHoSo extends Init{
+public class B1_GuiHoSo extends Init{
 
     @Test
     public void SendProfile () throws InterruptedException{
         Actions action = new Actions(driver);
-        driver.navigate().to("https://btxh.dttt.vn/Home");
+        driver.navigate().to("https://dvcbtxh.molisa.gov.vn/Home");
 
         WebElement nameInput = driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']"));
         nameInput.sendKeys("tubui");
@@ -110,7 +110,7 @@ public class GuiHoSo extends Init{
 //    @Test (priority = 1)
 //    public void B2_MCxatoCBxa () throws InterruptedException {
 //        JavascriptExecutor js = (JavascriptExecutor)driver;
-////        driver.navigate().to("https://btxh.dttt.vn/");
+////        driver.navigate().to("https://dvcbtxh.molisa.gov.vn/");
 //
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("01267_mc");
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");
@@ -148,7 +148,7 @@ public class GuiHoSo extends Init{
 //    public void B3_CBxatoLDxa () throws InterruptedException {
 //        Actions action = new Actions(driver);
 //        JavascriptExecutor js = (JavascriptExecutor)driver;
-//        driver.navigate().to("https://btxh.dttt.vn/");
+//        driver.navigate().to("https://dvcbtxh.molisa.gov.vn/");
 //
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("01267_cb");
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");
@@ -191,7 +191,7 @@ public class GuiHoSo extends Init{
 //    public void B4_LDxatoVTxa () throws InterruptedException {
 //        Actions action = new Actions(driver);
 //        JavascriptExecutor js = (JavascriptExecutor)driver;
-//        driver.navigate().to("https://btxh.dttt.vn/");
+//        driver.navigate().to("https://dvcbtxh.molisa.gov.vn/");
 //
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("01267_ld");
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");
@@ -229,7 +229,7 @@ public class GuiHoSo extends Init{
 //    public void B5_VTxatoCBxa () throws InterruptedException {
 //        Actions action = new Actions(driver);
 //        JavascriptExecutor js = (JavascriptExecutor)driver;
-//        driver.navigate().to("https://btxh.dttt.vn/");
+//        driver.navigate().to("https://dvcbtxh.molisa.gov.vn/");
 //
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("01267_vt");
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");
@@ -267,7 +267,7 @@ public class GuiHoSo extends Init{
 //    public void B6_CBxatoMChuyen () throws InterruptedException {
 //        Actions action = new Actions(driver);
 //        JavascriptExecutor js = (JavascriptExecutor)driver;
-//        driver.navigate().to("https://btxh.dttt.vn/");
+//        driver.navigate().to("https://dvcbtxh.molisa.gov.vn/");
 //
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("01267_cb");
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");
@@ -305,7 +305,7 @@ public class GuiHoSo extends Init{
 //    public void MChuyentoCBhuyen () throws InterruptedException {
 //        Actions action = new Actions(driver);
 //        JavascriptExecutor js = (JavascriptExecutor)driver;
-//        driver.navigate().to("https://btxh.dttt.vn/");
+//        driver.navigate().to("https://dvcbtxh.molisa.gov.vn/");
 //
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("040_mc");
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");

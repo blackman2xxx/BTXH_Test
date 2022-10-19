@@ -15,7 +15,7 @@ public class B1_DantoMCxa extends Init{
     public void SendProfile () throws InterruptedException{
         JavascriptExecutor js = (JavascriptExecutor)driver;
         Actions action = new Actions(driver);
-        driver.navigate().to("https://btxh.dttt.vn/Home");
+        driver.navigate().to("https://dvcbtxh.molisa.gov.vn/");
 
         driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("tubui");
         driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");
@@ -32,7 +32,8 @@ public class B1_DantoMCxa extends Init{
         driver.findElement(By.xpath("//span[@id='select2-MaTinh-container']")).click();
 
         driver.findElement(By.xpath("/html/body/span/span/span[1]/input")).sendKeys("Hà Nam");
-        action.sendKeys(Keys.ENTER).build().perform();
+        driver.findElement(By.xpath("/html/body/span/span/span[1]/input")).sendKeys(Keys.ENTER);
+//        action.sendKeys(Keys.ENTER).build().perform();
 
         //ch�?n huyện
         driver.findElement(By.xpath("//span[@id='select2-MaHuyen-container']")).click();
@@ -51,7 +52,7 @@ public class B1_DantoMCxa extends Init{
 
         //Bắt đầu nhập thông tin
         //tên
-        driver.findElement(By.xpath("//input[@id='HoVaTen']")).sendKeys("Hoàng Minh Sơn");
+        driver.findElement(By.xpath("//input[@id='HoVaTen']")).sendKeys("Trần Anh Tuấn");
 
         //ngày sinh
         js.executeScript("window.scrollBy(0,500)", "");
@@ -113,7 +114,7 @@ public class B1_DantoMCxa extends Init{
 //    @Test (priority = 1)
 //    public void B2_MCxatoCBxa () throws InterruptedException {
 //        JavascriptExecutor js = (JavascriptExecutor)driver;
-////        driver.navigate().to("https://btxh.dttt.vn/");
+////        driver.navigate().to("https://dvcbtxh.molisa.gov.vn/");
 //
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("01267_mc");
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");
@@ -151,7 +152,7 @@ public class B1_DantoMCxa extends Init{
 //    public void B3_CBxatoLDxa () throws InterruptedException {
 //        Actions action = new Actions(driver);
 //        JavascriptExecutor js = (JavascriptExecutor)driver;
-//        driver.navigate().to("https://btxh.dttt.vn/");
+//        driver.navigate().to("https://dvcbtxh.molisa.gov.vn/");
 //
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("01267_cb");
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");
@@ -194,7 +195,7 @@ public class B1_DantoMCxa extends Init{
 //    public void B4_LDxatoVTxa () throws InterruptedException {
 //        Actions action = new Actions(driver);
 //        JavascriptExecutor js = (JavascriptExecutor)driver;
-//        driver.navigate().to("https://btxh.dttt.vn/");
+//        driver.navigate().to("https://dvcbtxh.molisa.gov.vn/");
 //
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("01267_ld");
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");
@@ -232,7 +233,7 @@ public class B1_DantoMCxa extends Init{
 //    public void B5_VTxatoCBxa () throws InterruptedException {
 //        Actions action = new Actions(driver);
 //        JavascriptExecutor js = (JavascriptExecutor)driver;
-//        driver.navigate().to("https://btxh.dttt.vn/");
+//        driver.navigate().to("https://dvcbtxh.molisa.gov.vn/");
 //
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("01267_vt");
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");
@@ -270,7 +271,7 @@ public class B1_DantoMCxa extends Init{
 //    public void B6_CBxatoMChuyen () throws InterruptedException {
 //        Actions action = new Actions(driver);
 //        JavascriptExecutor js = (JavascriptExecutor)driver;
-//        driver.navigate().to("https://btxh.dttt.vn/");
+//        driver.navigate().to("https://dvcbtxh.molisa.gov.vn/");
 //
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("01267_cb");
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");
@@ -308,7 +309,7 @@ public class B1_DantoMCxa extends Init{
 //    public void MChuyentoCBhuyen () throws InterruptedException {
 //        Actions action = new Actions(driver);
 //        JavascriptExecutor js = (JavascriptExecutor)driver;
-//        driver.navigate().to("https://btxh.dttt.vn/");
+//        driver.navigate().to("https://dvcbtxh.molisa.gov.vn/");
 //
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("040_mc");
 //        driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");
