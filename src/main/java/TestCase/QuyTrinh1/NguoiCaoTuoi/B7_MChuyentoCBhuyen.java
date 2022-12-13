@@ -9,7 +9,7 @@ public class B7_MChuyentoCBhuyen extends Init {
     @Test
     public void Buoc7_MChuyentoCBhuyen () throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor)driver;
-        driver.get("https://dvcbtxh.molisa.gov.vn/");
+        driver.get("https://dvcbtxh.molisa.gov.vn");
 
         driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("352_mc");
         driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");

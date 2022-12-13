@@ -11,7 +11,7 @@ public class B5_VTxatoCBxa extends Init {
     public void VTxatoCBxa () throws InterruptedException {
         Actions action = new Actions(driver);
         JavascriptExecutor js = (JavascriptExecutor)driver;
-        driver.navigate().to("https://dvcbtxh.molisa.gov.vn/");
+        driver.navigate().to("https://dvcbtxh.molisa.gov.vn");
 
         driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("13516_vt");
         driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");

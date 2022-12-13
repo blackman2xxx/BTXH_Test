@@ -39,46 +39,46 @@
                     <include name="Buoc7_MChuyentoCBhuyen"/>
                 </methods>
             </class>
-<!--            <class name="TestCase.QuyTrinh1.NguoiCaoTuoi.B8_CBhuyentoLDphong">-->
-<!--                <methods>-->
-<!--                    <include name="Buoc8_CBhuyentoLDphong"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="TestCase.QuyTrinh1.NguoiCaoTuoi.B9_LDphongtoUBhuyen">-->
-<!--                <methods>-->
-<!--                    <include name="Buoc9_LDphongtoUBhuyen"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="TestCase.QuyTrinh1.NguoiCaoTuoi.B10_UBhuyentoLDhuyen">-->
-<!--                <methods>-->
-<!--                    <include name="Buoc10_UBhuyentoLDhuyen"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="TestCase.QuyTrinh1.NguoiCaoTuoi.B11_LDhuyentoUBhuyen">-->
-<!--                <methods>-->
-<!--                    <include name="Buoc11_LDhuyentoUBhuyen"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="TestCase.QuyTrinh1.NguoiCaoTuoi.B12_UBhuyentoCBhuyen">-->
-<!--                <methods>-->
-<!--                    <include name="Buoc12_UBhuyentoCBhuyen"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="TestCase.QuyTrinh1.NguoiCaoTuoi.B13_CBhuyentoMChuyen">-->
-<!--                <methods>-->
-<!--                    <include name="B13_CBhuyentoMChuyen"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="TestCase.QuyTrinh1.NguoiCaoTuoi.B14_MChuyentoCBxa">-->
-<!--                <methods>-->
-<!--                    <include name="B14_MChuyentoCBxa"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="TestCase.QuyTrinh1.NguoiCaoTuoi.B15_CBxatoDan">-->
-<!--                <methods>-->
-<!--                    <include name="B15_CBxatoDan"/>-->
-<!--                </methods>-->
-<!--            </class>-->
+            <class name="TestCase.QuyTrinh1.NguoiCaoTuoi.B8_CBhuyentoLDphong">
+                <methods>
+                    <include name="Buoc8_CBhuyentoLDphong"/>
+                </methods>
+            </class>
+            <class name="TestCase.QuyTrinh1.NguoiCaoTuoi.B9_LDphongtoUBhuyen">
+                <methods>
+                    <include name="Buoc9_LDphongtoUBhuyen"/>
+                </methods>
+            </class>
+            <class name="TestCase.QuyTrinh1.NguoiCaoTuoi.B10_UBhuyentoLDhuyen">
+                <methods>
+                    <include name="Buoc10_UBhuyentoLDhuyen"/>
+                </methods>
+            </class>
+            <class name="TestCase.QuyTrinh1.NguoiCaoTuoi.B11_LDhuyentoUBhuyen">
+                <methods>
+                    <include name="Buoc11_LDhuyentoUBhuyen"/>
+                </methods>
+            </class>
+            <class name="TestCase.QuyTrinh1.NguoiCaoTuoi.B12_UBhuyentoCBhuyen">
+                <methods>
+                    <include name="Buoc12_UBhuyentoCBhuyen"/>
+                </methods>
+            </class>
+            <class name="TestCase.QuyTrinh1.NguoiCaoTuoi.B13_CBhuyentoMChuyen">
+                <methods>
+                    <include name="B13_CBhuyentoMChuyen"/>
+                </methods>
+            </class>
+            <class name="TestCase.QuyTrinh1.NguoiCaoTuoi.B14_MChuyentoCBxa">
+                <methods>
+                    <include name="B14_MChuyentoCBxa"/>
+                </methods>
+            </class>
+            <class name="TestCase.QuyTrinh1.NguoiCaoTuoi.B15_CBxatoDan">
+                <methods>
+                    <include name="B15_CBxatoDan"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

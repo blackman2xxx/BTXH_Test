@@ -11,7 +11,7 @@ public class B6_CBxatoMChuyen extends Init {
     public void CBxatoMChuyen () throws InterruptedException {
         Actions action = new Actions(driver);
         JavascriptExecutor js = (JavascriptExecutor)driver;
-        driver.navigate().to("https://dvcbtxh.molisa.gov.vn/");
+        driver.navigate().to("https://dvcbtxh.molisa.gov.vn");
 
         driver.findElement(By.xpath("//form[@class='login_form']//input[@id='UserName']")).sendKeys("01267_cb");
         driver.findElement(By.xpath("//form[@class='login_form']//input[@id='Password']")).sendKeys("123456a@");

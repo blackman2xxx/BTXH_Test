@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
-public class FormInputPage {
+public class FormInputPage_CB {
     private WebDriver driver;
     private ValidateHelper validateHelper;
 
@@ -24,7 +24,7 @@ public class FormInputPage {
     private By ddcnInput = By.id("DDCN");
     private By commitBtn2 = By.xpath("//a[contains(text(),'Cập nhật')]");
 
-    public FormInputPage(WebDriver driver) {
+    public FormInputPage_CB(WebDriver driver) {
         this.driver = driver;
         validateHelper = new ValidateHelper(driver);
 

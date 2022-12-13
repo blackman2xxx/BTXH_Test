@@ -16,12 +16,19 @@ public class SignInPage {
         validateHelper = new ValidateHelper(driver);
     }
 
-    public DashboardPage SignIn (String username, String password) throws InterruptedException {
+    public DashboardPage_Dan SignInDan (String username, String password) throws InterruptedException {
         validateHelper.sendText(usernameInput,username);
         validateHelper.sendText(passwordInput,password);
         Thread.sleep(1000);
         validateHelper.clickElement(signInBtn);
-        return new DashboardPage(driver);
+        return new DashboardPage_Dan(driver);
+    }
+    public DashboardPage_CB SignInCB (String username, String password) throws InterruptedException {
+        validateHelper.sendText(usernameInput,username);
+        validateHelper.sendText(passwordInput,password);
+        Thread.sleep(1000);
+        validateHelper.clickElement(signInBtn);
+        return new DashboardPage_CB(driver);
     }
 
 }
